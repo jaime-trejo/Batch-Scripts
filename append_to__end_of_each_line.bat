@@ -1,11 +1,13 @@
 ::Date: 2/12/17
 ::This batch script will allow you to append a specific value entered to the end of each line.
-::DO NOT FORGET TO USE ESCAPE SPECIAL CHARACTERS
+::DO NOT FORGET TO ESCAPE SPECIAL CHARACTERS
 
 @echo off
 set original_file=%1
 set new_file=%2
 set /A args=2
+
+echo Don't forget to escape special characters.
 
 ::this will be the string you want to add to the end of each line
 SET string=
