@@ -7,6 +7,8 @@ set original_file=%1
 set new_file=%2
 set /A args=2
 
+TITLE Append to the end of the line
+
 echo Don't forget to escape special characters.
 
 ::this will be the string you want to add to the end of each line
